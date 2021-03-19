@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Pengguna</title>
+</head>
+<body bgcolor="#33ECFF">
+    <center>
+        <h3>Daftar Pengguna</h3>
+        <form action="PenggunaServlet" method="post">
+            <table>
+                <tr>
+                    <td>NIM:</td>
+                    <td><input type="text" name="nimMahasiswa"></td>
+                </tr>
+                <tr>
+                    <td>NAMA MAHASISWA:</td>
+                    <td><input type="text" name="namaMahasiswa"></td>
+                </tr>
+                <tr>
+                    <td>PROGRAM STUDI :</td>
+                    <td>
+                        <select name="prodiMahasiswa" id="prodiMahasiswa">
+                            <option value="MI">MI</option>
+                            <option value="MK">MK</option>
+                            <option value="TPM">TPM</option>
+                            <option value="TO">TO</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SIMPAN"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+
+</body>
+</html>
